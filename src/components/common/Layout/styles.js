@@ -219,7 +219,7 @@ export const Global = createGlobalStyle`
       color: inherit;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      font-size: 2.25rem;
+      font-size: 2.8rem;
       line-height: 1.1;
     }
     h2 {
@@ -234,7 +234,7 @@ export const Global = createGlobalStyle`
       color: inherit;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      font-size: 1.62671rem;
+      font-size: 2.5rem;
       line-height: 1.1;
     }
     h3 {
@@ -249,7 +249,7 @@ export const Global = createGlobalStyle`
       color: inherit;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      font-size: 1.38316rem;
+      font-size: 2rem;
       line-height: 1.1;
     }
     h4 {
@@ -264,7 +264,7 @@ export const Global = createGlobalStyle`
       color: inherit;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      font-size: 1rem;
+      font-size: 1.6rem;
       line-height: 1.1;
     }
     h5 {
