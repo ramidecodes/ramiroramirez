@@ -1,6 +1,6 @@
 module.exports = {
-	defaultTitle: 'Ramiro Ramirez - Full-stack Developer',
-	logo: 'https://ramiroramirez.xyz/favicon/favicon-512.png',
+	defaultTitle: 'Ramiro Ramirez - Full-stack Software Developer',
+	logo: 'https://ramiroramirez.xyz/favicon/android-chrome-512x512.png',
 	author: 'Ramiro Ramirez',
 	url: 'https://ramiroramirez.xyz',
 	legalName: 'Ramiro Ramirez',
