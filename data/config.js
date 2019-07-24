@@ -1,10 +1,10 @@
 module.exports = {
 	defaultTitle: 'Ramiro Ramirez - Full-stack Developer',
-	logo: 'https://ramiroramirez.xyz/favicon/favicon-512x512.png',
+	logo: 'https://ramiroramirez.xyz/favicon/favicon-512.png',
 	author: 'Ramiro Ramirez',
 	url: 'https://ramiroramirez.xyz',
 	legalName: 'Ramiro Ramirez',
-	defaultDescription: 'I’m Ramiro and I’m a Full-stack Developer & Creative Technologist',
+	defaultDescription: 'I’m Ramiro a Full-stack Developer & Creative Technologist',
 	socialLinks: {
 		twitter: 'http://www.twitter.com/eco_virtual',
 		github: 'https://github.com/ecovirtual',
@@ -22,7 +22,7 @@ module.exports = {
 		city: 'Amsterdam',
 		region: 'Noord Holland',
 		country: 'The Netherlands',
-		zipCode: 'xxxxxx',
+		zipCode: '1021JE',
 	},
 	contact: {
 		email: 'hello@ramiroramirez.xyz',
