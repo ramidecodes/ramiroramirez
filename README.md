@@ -17,10 +17,6 @@
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
 
-## Design
-
-Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfolio-for-developers)
-
 ## Structure
 
 ```bash
@@ -37,8 +33,6 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 ```
 
 ## Prerequisites
-
-[Yarn](https://yarnpkg.com/en/)
 
 Please create a new file `.env.development` and put this env variable with your GitHub token
 
@@ -65,13 +59,13 @@ I highly recommend you check this [repository](https://github.com/imorente/gatsb
 Installing the dependencies
 
 ```bash
-yarn
+npm i
 ```
 
 ## Start the dev server
 
 ```bash
-yarn start
+npm start
 ```
 
 ### Clean the cache
@@ -79,7 +73,7 @@ yarn start
 This removes the `.cache/` & `public/` folders
 
 ```bash
-yarn reset
+npm run clear
 ```
 
 ## Built with
@@ -88,7 +82,6 @@ yarn reset
 - Gatsby
 - React & GraphQL
 - VSCode
-- And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
 
 ## License
 
@@ -97,10 +90,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Contributors
 
 - [Ajayns](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
-- [Myself](https://smakosh.com)
-
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
+- [Smakosh](https://smakosh.com)
