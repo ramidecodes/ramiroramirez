@@ -43,7 +43,7 @@
     "build": "gatsby build",
     "start": "gatsby develop -o",
     "format": "prettier --write \"src/**/*.js\"",
-    "reset": "rm -rf .cache/ public/",
+    "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
