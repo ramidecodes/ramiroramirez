@@ -20,7 +20,7 @@ export const IntroWrapper = styled.div`
 `
 
 export const Details = styled.div`
-	flex: 1;
+	flex: 1.2;
 
 	@media (max-width: 960px) {
 		width: 100%;
@@ -50,7 +50,7 @@ export const Details = styled.div`
 `
 
 export const Thumbnail = styled.div`
-	flex: 1;
+	flex: .8;
 
 	@media (max-width: 960px) {
 		width: 100%;
