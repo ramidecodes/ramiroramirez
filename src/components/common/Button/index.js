@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Button = styled.button`
 	cursor: pointer;
-	border-radius: 3px;
+	border-radius: 15px;
 	padding: 0.7rem 2.5rem;
-	border: none;
+	border: 2px solid #a432ce;
 	-webkit-appearance: none;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -12,9 +12,8 @@ export const Button = styled.button`
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	color: #fff;
-	background: #0074d9;
-
+	color: white;
+	background: #a432ce;
 	&:focus {
 		outline: none;
 	}
