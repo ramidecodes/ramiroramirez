@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const Global = createGlobalStyle`
   html {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'OpenSans', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
@@ -220,7 +220,7 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 2.8rem;
-      line-height: 1.1;
+      line-height: 1.2;
     }
     h2 {
       margin-left: 0;
@@ -262,10 +262,12 @@ export const Global = createGlobalStyle`
       padding-top: 0;
       margin-bottom: 1.45rem;
       color: inherit;
-      font-weight: bold;
+      // font-weight: bold;
+		  font-weight: 300;
+      font-size: 22pt;
+      // font-size: 1.4rem;
       text-rendering: optimizeLegibility;
-      font-size: 1.6rem;
-      line-height: 1.1;
+      line-height: 1.4;
     }
     h5 {
       margin-left: 0;
@@ -602,7 +604,7 @@ export const Global = createGlobalStyle`
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Roboto', Helvetica, sans-serif;
+      font-family: 'OpenSans', Helvetica, sans-serif;
       color: hsla(0, 0%, 0%, 0.8);
       font-weight: normal;
       word-wrap: break-word;

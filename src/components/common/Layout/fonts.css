@@ -1,28 +1,36 @@
+/* Open Sans */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'OpenSans';
   font-style: normal;
+  font-weight: 300;
   font-display: fallback;
-  font-weight: 400;
-  src: url('./fonts/roboto-v18-latin-regular.eot');
-  src: local('Roboto'), local('Roboto-Regular'),
-    url('./fonts/roboto-v18-latin-regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('./fonts/roboto-v18-latin-regular.woff2') format('woff2'),
-    url('./fonts/roboto-v18-latin-regular.woff') format('woff'),
-    url('./fonts/roboto-v18-latin-regular.ttf') format('truetype'),
-    url('./fonts/roboto-v18-latin-regular.svg#Roboto') format('svg');
+  src: url('./fonts/OpenSans-Light-webfont.eot');
+  src: url('./fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/OpenSans-Light-webfont.woff') format('woff'),
+       url('./fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+       url('./fonts/OpenSans-Light-webfont.svg#OpenSans') format('svg');
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'OpenSans';
   font-style: normal;
+  font-weight: 400;
   font-display: fallback;
+  src: url('./fonts/OpenSans-Regular-webfont.eot');
+  src: url('./fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/OpenSans-Regular-webfont.woff') format('woff'),
+       url('./fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+       url('./fonts/OpenSans-Regular-webfont.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
   font-weight: 700;
-  src: url('./fonts/roboto-v18-latin-700.eot');
-  src: local('Roboto Bold'), local('Roboto-Bold'),
-    url('./fonts/roboto-v18-latin-700.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/roboto-v18-latin-700.woff2') format('woff2'),
-    url('./fonts/roboto-v18-latin-700.woff') format('woff'),
-    url('./fonts/roboto-v18-latin-700.ttf') format('truetype'),
-    url('./fonts/roboto-v18-latin-700.svg#Roboto') format('svg');
+  font-display: fallback;
+  src: url('./fonts/OpenSans-Bold-webfont.eot');
+  src: url('./fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/OpenSans-Bold-webfont.woff') format('woff'),
+       url('./fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+       url('./fonts/OpenSans-Bold-webfont.svg#OpenSans') format('svg');
 }
