@@ -6,11 +6,12 @@ import ContactForm from './ContactForm'
 
 export const Contact = () => (
 	<Wrapper as={Container} id="contact">
+		<Thumbnail>
+			<h4>Interested in working together? <br /> Lets have a chat.</h4>
+			<img src={contact} alt="This is the end" />
+		</Thumbnail>
 		<Details>
 			<ContactForm />
 		</Details>
-		<Thumbnail>
-			<img src={contact} alt="I’m John and I’m a Backend & Devops engineer!" />
-		</Thumbnail>
 	</Wrapper>
 )

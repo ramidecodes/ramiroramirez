@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-	padding: 4rem 0;
+	padding: 4rem 0 0;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
-
+	margin-bottom: 0 !important;
 	@media (max-width: 960px) {
 		flex-direction: column;
 	}
@@ -38,7 +38,7 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
 	flex: 1;
-
+	text-align: center;
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
