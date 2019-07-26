@@ -7,7 +7,7 @@ import Mate from 'Static/icons/mate.svg'
 const Navbar = () => (
 	<Wrapper as={Container}>
 		<Link to="/">
-			<img src={Mate} alt="Home" style={{ height: '52px' }} />
+			<img src={Mate} alt="Home" style={{ height: '52px', margin: 0 }} />
 		</Link>
 		<NavbarLinks desktop />
 	</Wrapper>
