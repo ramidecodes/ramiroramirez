@@ -11,12 +11,15 @@ export const About = () => (
 				<img src={nomad} alt="Digital Nomad" />
 			</Thumbnail>
 			<Details>
-				<h2>About</h2>
+				<h2>Hi! I'm Ramiro</h2>
 				<p>
-					After almost a decade of digital nomadism I've had the privilege of working with people and organizations form all around the world. This has taught me that there is no magic recipe or technology stack to solve a problem.
+					After almost a decade of digital nomadism I've had the privilege of working with entrepreneurs and organizations form all around the world.
 				</p>
 				<p>
-					Each project is unique, it's embedded in a particular context, and it's affected by specific human dynamics. If we don't consider this together with the implications of our actions while trying to provide a solution, then we've already failed.
+					The invaluable experience of funding studios in Spain, Mexico, Argentina and The Netherlands has taught me that there is no magic recipe or silver bullet to solve a problem.
+				</p>
+				<p>
+					Each project has a life on its own, it's composed by unique human dynamics and embedded in a particular cultural context. Once we acknowledge that software is a very human endeavor we can start providing real value to an ever changing ecosystem.
 				</p>
 			</Details>
 		</SkillsWrapper>
