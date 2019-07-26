@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 	background-repeat: no-repeat;
 
 	@media (max-width: 1960px) {
-		padding: 14rem 0 4rem;
+		padding: 12rem 0 2rem;
 	}
 `
 
@@ -16,7 +16,7 @@ export const Flex = styled.div`
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
-
+	margin-bottom: 1rem !important;
 	@media (max-width: 680px) {
 		flex-direction: column;
 		text-align: center;

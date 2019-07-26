@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/ecovirtual",
-    "icon": "/icons/telegram.svg"
+    "name": "Email",
+    "link": "mailto:hello@ramiroramirez.xyz",
+    "icon": "/icons/email.svg"
   },
   {
     "id": 1,
@@ -13,14 +13,20 @@
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/4684093",
-    "icon": "/icons/stackoverflow.svg"
-  },
-  {
-    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/eco_virtual",
     "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 3,
+    "name": "Instagram",
+    "link": "https://instagram.com/ecovirtual",
+    "icon": "/icons/instagram.svg"
+  },
+  {
+    "id": 4,
+    "name": "Instagram",
+    "link": "https://stackoverflow.com/users/story/4684093",
+    "icon": "/icons/stackoverflow.svg"
   }
 ]
