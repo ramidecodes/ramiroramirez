@@ -1,10 +1,10 @@
 module.exports = {
-	defaultTitle: 'Ramiro Ramirez - Full-stack Software Developer',
+	defaultTitle: 'Ramiro Ramirez - Software Developer & Creative Technologist',
 	logo: 'https://ramiroramirez.xyz/favicon/android-chrome-512x512.png',
 	author: 'Ramiro Ramirez',
 	url: 'https://ramiroramirez.xyz',
 	legalName: 'Ramiro Ramirez',
-	defaultDescription: 'I’m Ramiro a Full-stack Developer & Creative Technologist',
+	defaultDescription: 'I’m Ramiro let’s talk about humans and software',
 	socialLinks: {
 		twitter: 'http://www.twitter.com/eco_virtual',
 		github: 'https://github.com/ecovirtual',
