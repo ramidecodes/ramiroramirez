@@ -1,7 +1,8 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'Common'
-// import campfire from 'Static/illustrations/campfire.svg'
+import Coding from 'Static/icons/icosahedron.svg'
+import Consultancy from 'Static/icons/flower_life.svg'
 import { Wrapper, SkillsWrapper, SkillsColumn } from './styles'
 
 export const Skills = () => (
@@ -9,24 +10,31 @@ export const Skills = () => (
 		<h2>How can I help you?</h2>
 		<SkillsWrapper as={Container}>
 			<SkillsColumn>
-				<p>As a <strong>software developer</strong> I can deliver complete projects in the shape of:</p>
+				<img src={Coding} alt="Coding" style={{ height: '80px' }} />
+				<h3>Software Development</h3>
 				<ul>
 					<li>Websites</li>
 					<li>Web Apps</li>
 					<li>Desktop Apps</li>
-					<li>Docker Images (APIs & Microservices)</li>
+					<li>APIs & Microservices (Docker)</li>
 					<li>Data Scraping Tools</li>
-					<li>Data visualization dashboards</li>
 				</ul>
+				<Button as={AnchorLink} href="#contact">
+					Get in touch!
+				</Button>
 			</SkillsColumn>
 			<SkillsColumn>
-				<p>As a <strong>consultant</strong> I can help you and your team:</p>
+				<img src={Consultancy} alt="Consultancy" style={{ height: '80px' }} />
+				<h3>Consultancy</h3>
 				<ul>
-					<li>Adopt best practices for agile software development & team management</li>
-					<li>Transition into a data driven decision-making culture</li>
-					<li>Design Big Data warehousing & analysis pipelines</li>
-					<li>Asses the technical feasibility & scalability of an idea or prototype</li>
+					<li>Adopting best practices for agile development</li>
+					<li>Transitioning into a data-driven culture</li>
+					<li>Designing Big Data pipelines</li>
+					<li>Assesing technical feasibility & scalabilty</li>
 				</ul>
+				<Button as={AnchorLink} href="#contact">
+					Get in touch!
+				</Button>
 			</SkillsColumn>
 		</SkillsWrapper>
 	</Wrapper>
