@@ -16,12 +16,12 @@ export const IntroWrapper = styled.div`
 
 	@media (max-width: 960px) {
 		flex-direction: column;
+		padding: 1rem 0;
 	}
 `
 
 export const Details = styled.div`
-	flex: 1.2;
-
+	flex: 1.3;
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
@@ -30,7 +30,6 @@ export const Details = styled.div`
 	h1 {
 		margin-bottom: 2rem;
 		font-size: 36pt;
-		color: #212121;
 
 		@media (max-width: 680px) {
 			font-size: 30pt;
@@ -39,9 +38,8 @@ export const Details = styled.div`
 
 	h4 {
 		margin-bottom: 2.5rem;
-		font-size: 32pt;
-		font-weight: normal;
-		color: #707070;
+		font-size: 22pt;
+		font-weight: 300;
 
 		@media (max-width: 680px) {
 			font-size: 26pt;
@@ -50,8 +48,7 @@ export const Details = styled.div`
 `
 
 export const Thumbnail = styled.div`
-	flex: .8;
-
+	flex: 1;
 	@media (max-width: 960px) {
 		width: 100%;
 	}
