@@ -234,7 +234,7 @@ export const Global = createGlobalStyle`
       color: inherit;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       line-height: 1.1;
     }
     h3 {
