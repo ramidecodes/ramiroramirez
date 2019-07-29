@@ -83,7 +83,7 @@ const ContactForm = ({
 			<Center>
 				<Button secondary type="submit" disabled={isSubmitting}>
 					Send
-			</Button>
+				</Button>
 			</Center>
 		</Form>
 	)
