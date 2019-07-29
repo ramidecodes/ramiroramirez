@@ -1,5 +1,5 @@
 module.exports = {
-	defaultTitle: 'Ramiro Ramirez - Software Developer & Creative Technologist',
+	defaultTitle: 'Ramiro Ramirez - Creative Technologist & Software Developer',
 	logo: 'https://ramiroramirez.xyz/favicon/android-chrome-512x512.png',
 	author: 'Ramiro Ramirez',
 	url: 'https://ramiroramirez.xyz',
