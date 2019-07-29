@@ -16,7 +16,7 @@ export const Skills = () => (
 					<li>Websites</li>
 					<li>Web Apps</li>
 					<li>Desktop Apps</li>
-					<li>APIs & Microservices (Docker)</li>
+					<li>APIs & Microservices</li>
 					<li>Data Scraping Tools</li>
 				</ul>
 				<Button as={AnchorLink} href="#contact">
