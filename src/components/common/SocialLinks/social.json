@@ -13,20 +13,20 @@
   },
   {
     "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/ramirezramiro/",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
+    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/eco_virtual",
     "icon": "/icons/twitter.svg"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Instagram",
     "link": "https://instagram.com/ecovirtual",
     "icon": "/icons/instagram.svg"
-  },
-  {
-    "id": 4,
-    "name": "Instagram",
-    "link": "https://stackoverflow.com/users/story/4684093",
-    "icon": "/icons/stackoverflow.svg"
   }
 ]
