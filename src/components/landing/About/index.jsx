@@ -1,17 +1,17 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'Common'
-import nomad from 'Static/illustrations/nomad.svg'
+// import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Container } from 'Common'
+import Campfire from 'Static/illustrations/campfire.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
 export const About = () => (
 	<Wrapper id="about">
 		<SkillsWrapper as={Container}>
 			<Thumbnail>
-				<img src={nomad} alt="Digital Nomad" />
+				<img src={Campfire} alt="Digital Nomad" />
 			</Thumbnail>
 			<Details>
-				<h2>Hi! I'm Ramiro</h2>
+				<h2>The Nomad</h2>
 				<p>
 					After almost a decade of digital nomadism I've had the privilege of working with entrepreneurs and organizations form all around the world.
 				</p>
