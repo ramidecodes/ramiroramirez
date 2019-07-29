@@ -40,6 +40,7 @@ export const Global = createGlobalStyle`
     a {
       background-color: transparent;
       -webkit-text-decoration-skip: objects;
+      color: #9919c9;
     }
     a:active,
     a:hover {
