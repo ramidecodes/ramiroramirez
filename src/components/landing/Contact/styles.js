@@ -13,8 +13,8 @@ export const Wrapper = styled.div`
 
 export const Details = styled.div`
 	flex: 1;
-	padding-right: 2rem;
-
+	padding: 0 1rem;
+	
 	@media (max-width: 960px) {
 		padding-right: unset;
 		width: 100%;
@@ -39,6 +39,7 @@ export const Details = styled.div`
 export const Thumbnail = styled.div`
 	flex: 1;
 	text-align: center;
+
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
