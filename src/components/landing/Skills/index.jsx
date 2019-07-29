@@ -20,7 +20,7 @@ export const Skills = () => (
 					<li>Data Scraping Tools</li>
 				</ul>
 				<Button as={AnchorLink} href="#contact">
-					Get in touch!
+					Get in touch
 				</Button>
 			</SkillsColumn>
 			<SkillsColumn>
@@ -33,7 +33,7 @@ export const Skills = () => (
 					<li>Assesing technical feasibility & scalabilty</li>
 				</ul>
 				<Button as={AnchorLink} href="#contact">
-					Get in touch!
+					Get in touch
 				</Button>
 			</SkillsColumn>
 		</SkillsWrapper>
