@@ -11,7 +11,7 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Creative Technologist<br /> <span style={{ fontWeight: 300, fontSize: '90%' }}>&</span> <br />Full-stack Developer</h1>
+				<h1>Creative Technologist<br /> <span style={{ fontWeight: 300, fontSize: '88%' }}>&</span> <br />Full-stack Developer</h1>
 				<h4>I craft human-centered software solutions</h4>
 				{/* <p><span>I'm available for hire </span>
 					<Button as={AnchorLink} href="#contact">
