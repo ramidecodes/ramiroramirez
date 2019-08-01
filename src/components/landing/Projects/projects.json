@@ -1,0 +1,127 @@
+[
+    {
+        "id": 0,
+        "title": "Conscious Geek Stuff",
+        "description": "T-shirts and apparel for the contemporary geek.",
+        "url": "https://consciousgeekstuff.com",
+        "repoUrl": "",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "Wordpress",
+            "Printful",
+            "Woocommerce"
+        ],
+        "type": "eCommerce",
+        "year": 2019
+    },
+    {
+        "id": 1,
+        "title": "Human Beyond Labs",
+        "description": "Creative studio that focuses on interactive storytelling through immersive installations using AI.",
+        "url": "https://humanbeyondlabs.com",
+        "repoUrl": "",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "NodeJS",
+            "VueJS",
+            "NuxtJS",
+            "Firebase"
+        ],
+        "type": "Website",
+        "year": 2019
+    },
+    {
+        "id": 2,
+        "title": "Adventures of the Valparaiso",
+        "description": "Art studio above the hull of a hundred years old barge.",
+        "url": "https://adventuresofthevalparaiso.com",
+        "repoUrl": "https://github.com/ecovirtual/valparaiso",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "NodeJS",
+            "VueJS",
+            "NuxtJS",
+            "Firebase"
+        ],
+        "type": "Website",
+        "year": 2018
+    },
+    {
+        "id": 3,
+        "title": "Singularity Instant",
+        "description": "A short piece of contemporary art presented as an immersive scene that includes interactive components of dance, music, olfactory art and image design.",
+        "url": "https://www.facebook.com/opentodo/",
+        "repoUrl": "https://github.com/ecovirtual/kinectvision",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "Processing",
+            "Unity3d",
+            "Resolume"
+        ],
+        "type": "Interactive Installation",
+        "year": 2017
+    },
+    {
+        "id": 4,
+        "title": "Singularity Horizon",
+        "description": "An interactive contemporary dance piece in seven acts. Set in a multisensorial landscape where music, dance, fragrances and interactive projections dialogue and stimulates imagination to observe the best human potentialities.",
+        "url": "https://www.facebook.com/opentodo/",
+        "repoUrl": "https://github.com/ecovirtual/kinectvision",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "Processing",
+            "Unity3d",
+            "Resolume"
+        ],
+        "type": "Interactive Installation",
+        "year": 2017
+    },
+    {
+        "id": 5,
+        "title": "Tamagotchi Facebook",
+        "description": "A Facebook scraper to collect publicly available data.",
+        "url": "",
+        "repoUrl": "",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "JavaScript",
+            "NodeJS",
+            "PostgreSQL"
+        ],
+        "type": "Custom Software",
+        "year": 2018
+    },
+    {
+        "id": 6,
+        "title": "Tamagotchi Instagram",
+        "description": "An Instagram scraper to collect publicly available data.",
+        "url": "",
+        "repoUrl": "",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "JavaScript",
+            "NodeJS",
+            "Express",
+            "PostgreSQL"
+        ],
+        "type": "Custom Software",
+        "year": 2019
+    },
+    {
+        "id": 7,
+        "title": "Tamagotchi Dashboard",
+        "description": "Intuitive administration dashboard to manage & monitor micro-service-based applications using REST APIs.",
+        "url": "",
+        "repoUrl": "",
+        "image": "/illustrations/ramiro.jpg",
+        "madeWidth": [
+            "NodeJS",
+            "VueJS",
+            "Express",
+            "REST",
+            "PostgreSQL"
+        ],
+        "type": "Web App",
+        "year": 2018
+    }
+]
