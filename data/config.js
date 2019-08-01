@@ -12,8 +12,8 @@ module.exports = {
 		instagram: 'https://instagram.com/ecovirtual'
 	},
 	googleAnalyticsID: 'UA-144485551-1',
-	themeColor: '#6b63ff',
-	backgroundColor: '#6b63ff',
+	themeColor: '#9919C9',
+	backgroundColor: '#9919C9',
 	social: {
 		facebook: '642851369553020',
 		twitter: '@eco_virtual',
