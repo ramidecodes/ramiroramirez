@@ -5,7 +5,7 @@
         "description": "T-shirts and apparel for the contemporary geek.",
         "url": "https://consciousgeekstuff.com",
         "repoUrl": "",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "Wordpress",
             "Printful",
@@ -20,7 +20,7 @@
         "description": "Creative studio that focuses on interactive storytelling through immersive installations using AI.",
         "url": "https://humanbeyondlabs.com",
         "repoUrl": "",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "NodeJS",
             "VueJS",
@@ -36,7 +36,7 @@
         "description": "Art studio above the hull of a hundred years old barge.",
         "url": "https://adventuresofthevalparaiso.com",
         "repoUrl": "https://github.com/ecovirtual/valparaiso",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "NodeJS",
             "VueJS",
@@ -52,7 +52,7 @@
         "description": "A short piece of contemporary art presented as an immersive scene that includes interactive components of dance, music, olfactory art and image design.",
         "url": "https://www.facebook.com/opentodo/",
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "Processing",
             "Unity3d",
@@ -67,7 +67,7 @@
         "description": "An interactive contemporary dance piece in seven acts. Set in a multisensorial landscape where music, dance, fragrances and interactive projections dialogue and stimulates imagination to observe the best human potentialities.",
         "url": "https://www.facebook.com/opentodo/",
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "Processing",
             "Unity3d",
@@ -82,13 +82,13 @@
         "description": "A Facebook scraper to collect publicly available data.",
         "url": "",
         "repoUrl": "",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "JavaScript",
             "NodeJS",
             "PostgreSQL"
         ],
-        "type": "Custom Software",
+        "type": "Data Scraper",
         "year": 2018
     },
     {
@@ -97,23 +97,23 @@
         "description": "An Instagram scraper to collect publicly available data.",
         "url": "",
         "repoUrl": "",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "JavaScript",
             "NodeJS",
             "Express",
             "PostgreSQL"
         ],
-        "type": "Custom Software",
+        "type": "Data Scraper",
         "year": 2019
     },
     {
         "id": 7,
         "title": "Tamagotchi Dashboard",
-        "description": "Intuitive administration dashboard to manage & monitor micro-service-based applications using REST APIs.",
+        "description": "Intuitive administration dashboard to manage & monitor microservice-based applications using REST APIs.",
         "url": "",
         "repoUrl": "",
-        "image": "/illustrations/ramiro.jpg",
+        "image": "https://source.unsplash.com/random/425x280",
         "madeWidth": [
             "NodeJS",
             "VueJS",
