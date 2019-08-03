@@ -30,7 +30,7 @@ export const CardContainer = styled.div`
 export const Media = styled.div`
 	img {
 		width: 100%;
-		height: auto;
+		height: 100%;
 		margin: 0;
 		// filter: blur(2px);
 	}
