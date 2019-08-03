@@ -5,7 +5,7 @@
         "description": "T-shirts and apparel for the contemporary geek.",
         "url": "https://consciousgeekstuff.com",
         "repoUrl": "",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/consciousgeekstuff.jpg",
         "madeWidth": [
             "Wordpress",
             "Printful",
@@ -20,7 +20,7 @@
         "description": "Creative studio that focuses on interactive storytelling through immersive installations using AI.",
         "url": "https://humanbeyondlabs.com",
         "repoUrl": "",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/humanbeyondlabs.jpg",
         "madeWidth": [
             "NodeJS",
             "VueJS",
@@ -36,7 +36,7 @@
         "description": "Art studio above the hull of a hundred years old barge.",
         "url": "https://adventuresofthevalparaiso.com",
         "repoUrl": "https://github.com/ecovirtual/valparaiso",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/valparaiso.jpg",
         "madeWidth": [
             "NodeJS",
             "VueJS",
@@ -50,9 +50,9 @@
         "id": 3,
         "title": "Singularity Instant",
         "description": "A short piece of contemporary art presented as an immersive scene that includes interactive components of dance, music, olfactory art and image design.",
-        "url": "https://www.facebook.com/opentodo/",
+        "url": "https://www.instagram.com/opentodo/",
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/singularity_instant.jpg",
         "madeWidth": [
             "Processing",
             "Unity3d",
@@ -65,9 +65,9 @@
         "id": 4,
         "title": "Singularity Horizon",
         "description": "An interactive contemporary dance piece in seven acts. Set in a multisensorial landscape where music, dance, fragrances and interactive projections dialogue and stimulates imagination to observe the best human potentialities.",
-        "url": "https://www.facebook.com/opentodo/",
+        "url": "https://www.instagram.com/opentodo/",
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/singularity_horizon.jpg",
         "madeWidth": [
             "Processing",
             "Unity3d",
@@ -82,7 +82,7 @@
         "description": "A Facebook scraper to collect publicly available data.",
         "url": "",
         "repoUrl": "",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/tamagotchi_facebook.jpg",
         "madeWidth": [
             "JavaScript",
             "NodeJS",
@@ -97,7 +97,7 @@
         "description": "An Instagram scraper to collect publicly available data.",
         "url": "",
         "repoUrl": "",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/tamagotchi_instagram.jpg",
         "madeWidth": [
             "JavaScript",
             "NodeJS",
@@ -113,7 +113,7 @@
         "description": "Intuitive administration dashboard to manage & monitor microservice-based applications using REST APIs.",
         "url": "",
         "repoUrl": "",
-        "image": "https://source.unsplash.com/random/425x280",
+        "image": "projects/tamagotchi_dashboard.jpg",
         "madeWidth": [
             "NodeJS",
             "VueJS",

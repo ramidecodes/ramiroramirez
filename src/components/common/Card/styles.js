@@ -21,6 +21,10 @@ export const CardContainer = styled.div`
 			0 10px 20px rgba(0,0,0,0.19), 
 			0 6px 6px rgba(0,0,0,0.23);
 		transform: scale(1.03);
+		img {
+			transition: all .25s linear;
+			filter: none;
+		}
 	}
 `
 export const Media = styled.div`
@@ -28,6 +32,7 @@ export const Media = styled.div`
 		width: 100%;
 		height: auto;
 		margin: 0;
+		filter: blur(2px);
 	}
 `
 export const Header = styled.div`
@@ -78,6 +83,7 @@ export const Meta = styled.div`
 `
 export const MetaCapsule = styled.div`
 	display: inline-block;
+	z-index: 2;
 	border-radius: 20px;
 	color: white;
 	background-color: #794498;
