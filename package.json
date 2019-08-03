@@ -5,7 +5,6 @@
   "version": "0.1.1",
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
-    "@material-ui/icons": "^4.2.1",
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
     "formik": "^1.4.1",
