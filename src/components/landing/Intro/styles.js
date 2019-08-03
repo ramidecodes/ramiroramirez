@@ -48,7 +48,22 @@ export const Details = styled.div`
 		}
 	}
 `
+export const ProfilePicture = styled.div`
+	width: 100;
+	height: auto;
+	img.profile-pic {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+		max-width: 220px;
+		max-height: 220px
+		box-shadow:
+		0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+		0 3px 1px -2px rgba(0, 0, 0, 0.2), 
+		0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	}
 
+`
 export const Profile = styled.div`
 	flex: .7;
 	display: flex;
@@ -73,17 +88,6 @@ export const Profile = styled.div`
 		line-height: 1.3;
 	}
 
-	img.profile-pic {
-		width: 100%;
-		height: auto;
-		border-radius: 50%;
-		max-width: 220px;
-		max-height: 220px
-		box-shadow:
-		0 2px 2px 0 rgba(0, 0, 0, 0.14), 
-		0 3px 1px -2px rgba(0, 0, 0, 0.2), 
-		0 1px 5px 0 rgba(0, 0, 0, 0.12);
-	}
 	@media (max-width: 960px) {
 		width: 100%;
 	}

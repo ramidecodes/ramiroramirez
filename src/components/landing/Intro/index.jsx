@@ -4,7 +4,7 @@ import { Header } from 'Theme'
 import { Container, SocialLinks, } from 'Common'
 import Ramiro from 'Static/illustrations/ramiro.jpg'
 import Pin from 'Static/icons/pin.svg'
-import { Wrapper, IntroWrapper, Details, Profile } from './styles'
+import { Wrapper, IntroWrapper, Details, Profile, ProfilePicture } from './styles'
 
 export const Intro = () => (
 	<Wrapper>
@@ -20,7 +20,9 @@ export const Intro = () => (
 				</p> */}
 			</Details>
 			<Profile>
-				<img className='profile-pic' src={Ramiro} alt="Ramiro Ramirez - Full-stack Developer & Creative Technologist" />
+				<ProfilePicture>
+					<img className='profile-pic' src={Ramiro} alt="Ramiro Ramirez - Full-stack Developer & Creative Technologist" />
+				</ProfilePicture>
 				<h4>Ramiro Ramirez</h4>
 				<SocialLinks />
 				<p>Funder @ <br /><a href="https://humanbeyondlabs.com/" target='_blank'>Human Beyond Labs</a> & <a href="https://consciousgeekstuff.com/" target='_blank'>Conscious Geek Stuff</a></p>
