@@ -75,7 +75,7 @@ export const Profile = styled.div`
 
 	img.profile-pic {
 		width: 100%;
-		height: 100%;
+		height: auto;
 		border-radius: 50%;
 		max-width: 220px;
 		max-height: 220px
