@@ -130,7 +130,7 @@ export default withFormik({
 			})
 			await setSubmitting(false)
 			await setFieldValue('success', true)
-			setTimeout(() => resetForm(), 2000)
+			setTimeout(() => resetForm(), 5000)
 		} catch (err) {
 			setSubmitting(false)
 			setFieldValue('success', false)
