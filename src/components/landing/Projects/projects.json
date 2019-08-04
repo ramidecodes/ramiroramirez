@@ -19,7 +19,7 @@
         "title": "Human Beyond Labs",
         "description": "Creative studio that focuses on interactive storytelling through immersive installations using AI.",
         "url": "https://humanbeyondlabs.com",
-        "repoUrl": "",
+        "repoUrl": "https://gitlab.com/human-beyond-labs/hbl-website",
         "image": "projects/humanbeyondlabs.jpg",
         "madeWidth": [
             "NodeJS",
