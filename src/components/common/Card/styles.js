@@ -21,26 +21,25 @@ export const CardContainer = styled.div`
 			0 10px 20px rgba(0,0,0,0.19), 
 			0 6px 6px rgba(0,0,0,0.23);
 		transform: scale(1.03);
-		// img {
-		// 	transition: all .25s linear;
-		// 	filter: none;
-		// }
+		img {
+			filter: none;
+		}
 	}
-`
+	`
 export const Media = styled.div`
 	img {
+		transition: all .25s linear;
 		width: 100%;
 		height: 100%;
 		margin: 0;
-		// filter: blur(2px);
+		filter: grayscale(50%);
 	}
 `
 export const Header = styled.div`
 	padding: 1rem;
 	h4 {
-		color: #212121;
-		font-size: 18pt;
-		font-weight: 400;
+		font-size: 16pt;
+		font-weight: 700;
 		margin-bottom: 0;
 	}
 
@@ -49,9 +48,9 @@ export const Header = styled.div`
 	}
 `
 export const Content = styled.div`
-	padding: 1rem;
-	color: #606060;
-	font-size: 12pt;
+	padding: 2rem 1rem 1rem;
+	// color: #606060;
+	font-size: 11pt;
 `
 export const Actions = styled.div`
 	display: flex;
@@ -77,7 +76,7 @@ export const Actions = styled.div`
 export const Meta = styled.div`
 	display: flex;
 	flex-flow: row no-wrap;
-	justify-content: space-between;
+	justify-content: flex-end;
 	margin-top: -24px;
 	padding: 0 1rem;
 `
@@ -86,11 +85,12 @@ export const MetaCapsule = styled.div`
 	z-index: 2;
 	border-radius: 20px;
 	color: white;
-	background-color: #794498;
+	// background-color: #794498;
+	background-color: #3f3d56;
 	margin: 0 0.2rem .5rem;
 		margin-right: 0.2rem;
 	padding: 0.4rem .7rem;
-	font-size: 12pt;
+	font-size: 10pt;
 	font-weight: 400;
 	box-shadow: 
 		0 2px 2px 0 rgba(0,0,0,0.14),
@@ -100,16 +100,20 @@ export const MetaCapsule = styled.div`
 export const Tags = styled.div`
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 `
 
 export const TagCapsule = styled.div`
 	display: inline-block;
 	border-radius: 6px;
 	color: #656565;
-	background-color: #e4e4e4;
+	background-color: #efefef;
 	padding: .4rem .6rem;
 	font-size: 10pt;
-	font-weight: 700;
-	margin: 0 0 .5rem;
+	font-weight: 400;
+	margin: 0 5px .5rem;
+	box-shadow: 
+		0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
 `
