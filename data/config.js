@@ -4,7 +4,7 @@ module.exports = {
 	author: 'Ramiro Ramirez',
 	url: 'https://ramiroramirez.xyz',
 	legalName: 'Ramiro Ramirez',
-	defaultDescription: 'I’m Ramiro let’s talk about humans and software',
+	defaultDescription: 'Hi, I’m Ramiro. Let’s talk about humans and software.',
 	socialLinks: {
 		twitter: 'http://www.twitter.com/eco_virtual',
 		github: 'https://github.com/ecovirtual',

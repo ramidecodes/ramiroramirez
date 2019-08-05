@@ -8,7 +8,7 @@ export const Footer = () => (
 			<Details>
 				<h4>Ramiro Ramirez</h4>
 				<span>
-					© All rights are reserved | {new Date().getFullYear()}
+					© All rights reserved | {new Date().getFullYear()}
 				</span>
 			</Details>
 			<SocialLinks />
