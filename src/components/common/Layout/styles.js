@@ -600,6 +600,9 @@ export const Global = createGlobalStyle`
     @media only screen and (max-width: 480px) {
       html {
         font-size: 100%;
+        p, li {
+          font-size: 11pt;
+        }
       }
     }
     body {
