@@ -32,7 +32,7 @@ export const Media = styled.div`
 		width: 100%;
 		height: 100%;
 		margin: 0;
-		filter: grayscale(65%);
+		filter: grayscale(100%);
 	}
 `
 export const Header = styled.div`
