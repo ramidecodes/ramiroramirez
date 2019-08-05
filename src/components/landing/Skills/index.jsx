@@ -35,7 +35,7 @@ export const Skills = () => (
 					<li>Adopting best practices for agile development</li>
 					<li>Transitioning into a data-driven culture</li>
 					<li>Designing Big Data pipelines</li>
-					<li>Assesing technical feasibility & scalabilty</li>
+					<li>Assessing technical feasibility & scalability</li>
 				</ul>
 				<Button as={AnchorLink} href="#contact">
 					Get in touch
