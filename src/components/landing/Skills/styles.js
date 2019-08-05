@@ -39,16 +39,20 @@ export const SkillsColumn = styled.div`
 	h3 {
 		font-size: 18pt;
 	}
-	@media (max-width: 960px) {
-		padding: 2rem 0;
-		width: 100%;
-		margin: 0 0 3rem;
-	}
 	ul {
 		margin-left: 0;
 		li {
 			list-style-type: none;
-			font-size: 14pt
+			font-size: 11pt
 		}
+	}
+	hr {
+		background: hsl(283.9, 80.8%, 40.8%);
+		width: 50%;
+	}
+	@media (max-width: 960px) {
+		padding: 2rem 0;
+		width: 100%;
+		margin: 0 0 3rem;
 	}
 `

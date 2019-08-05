@@ -12,12 +12,15 @@ export const Skills = () => (
 			<SkillsColumn>
 				<img src={Coding} alt="Coding" style={{ height: '80px' }} />
 				<h3>Software Development</h3>
+				<p>I can deliver solutions in the shape of:</p>
+				<hr />
 				<ul>
 					<li>Websites</li>
+					<li>eCommerce</li>
 					<li>Web Apps</li>
 					<li>Desktop Apps</li>
 					<li>APIs & Microservices</li>
-					<li>Data Scraping Tools</li>
+					<li>Data Collection & Analysis Tools</li>
 				</ul>
 				<Button as={AnchorLink} href="#contact">
 					Get in touch
@@ -26,6 +29,8 @@ export const Skills = () => (
 			<SkillsColumn>
 				<img src={Consultancy} alt="Consultancy" style={{ height: '80px' }} />
 				<h3>Consultancy</h3>
+				<p>I can work with you and your team on:</p>
+				<hr />
 				<ul>
 					<li>Adopting best practices for agile development</li>
 					<li>Transitioning into a data-driven culture</li>
