@@ -28,5 +28,11 @@
     "name": "Instagram",
     "link": "https://instagram.com/ecovirtual",
     "icon": "/icons/instagram.svg"
+  },
+  {
+    "id": 4,
+    "name": "GitLab",
+    "link": "https://gitlab.com/ecovirtual",
+    "icon": "/icons/gitlab.svg"
   }
 ]
