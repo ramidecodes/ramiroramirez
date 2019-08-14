@@ -23,11 +23,13 @@ export const SkillsWrapper = styled.div`
 `
 export const SkillsColumn = styled.div`
 	flex: 1;
+	height: 512px;
 	margin: 0 2.5rem;
 	padding: 3rem 2rem;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	justify-content: space-between;
 	text-align: center;
 	// background-color: #612478;
 	// color: white;
