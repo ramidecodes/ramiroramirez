@@ -88,6 +88,12 @@ export const Profile = styled.div`
 		line-height: 1.3;
 	}
 
+	p.has-border {
+		border: solid 1px #a432ce;
+		padding: .5rem;
+		border-radius: 6px;
+	}
+
 	@media (max-width: 960px) {
 		width: 100%;
 	}

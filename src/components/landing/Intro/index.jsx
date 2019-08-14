@@ -27,7 +27,7 @@ export const Intro = () => (
 				<SocialLinks />
 				<p>Founder @ <br /><a href="https://humanbeyondlabs.com/" target='_blank'>Human Beyond Labs</a> & <a href="https://consciousgeekstuff.com/" target='_blank'>Conscious Geek Stuff</a></p>
 				<p><img src={Pin} width='14pt' alt="Amsterdam, The Netherlands" />	Amsterdam, The Netherlands</p>
-				<p>Available for <AnchorLink href="#contact">hire</AnchorLink></p>
+				<p className="has-border">Available for <AnchorLink href="#contact">hire</AnchorLink></p>
 			</Profile>
 		</IntroWrapper>
 	</Wrapper >
