@@ -29,7 +29,7 @@ export const SkillsColumn = styled.div`
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: start;
 	text-align: center;
 	// background-color: #612478;
 	// color: white;
@@ -51,6 +51,9 @@ export const SkillsColumn = styled.div`
 	hr {
 		background: hsl(283.9, 80.8%, 40.8%);
 		width: 50%;
+	}
+	.cta {
+		margin-top: auto;
 	}
 	@media (max-width: 960px) {
 		padding: 2rem 0;

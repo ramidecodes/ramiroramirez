@@ -37,7 +37,7 @@ export const Skills = () => (
 					<li>Designing Big Data pipelines</li>
 					<li>Assessing technical feasibility & scalability</li>
 				</ul>
-				<Button as={AnchorLink} href="#contact">
+				<Button className="cta" as={AnchorLink} href="#contact">
 					Get in touch
 				</Button>
 			</SkillsColumn>

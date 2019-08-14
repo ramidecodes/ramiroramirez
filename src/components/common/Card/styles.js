@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-	height: auto;
+	height: 585px;
 	width: 100%;
 	display: flex;
-	flex-flow: column;
+	flex-flow: column nowrap;
 	justify-content: flex-start;
 	padding: 0;
 	background: #fff;
@@ -53,6 +53,7 @@ export const Content = styled.div`
 	font-size: 11pt;
 `
 export const Actions = styled.div`
+	margin-top:auto;
 	display: flex;
 	justify-content: center;
 	padding: 1rem;
@@ -108,7 +109,7 @@ export const TagCapsule = styled.div`
 	border-radius: 6px;
 	color: #656565;
 	background-color: #efefef;
-	padding: .4rem .6rem;
+	padding: .4rem;
 	font-size: 10pt;
 	font-weight: 400;
 	margin: 0 5px .5rem;
