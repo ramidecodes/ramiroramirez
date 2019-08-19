@@ -40,6 +40,8 @@ export const Button = styled.button`
 	${({ secondary }) =>
 		secondary &&
 		`
-		background: #612478;
+		// background: white;
+		// color: #8f14b;
+		padding: .6rem 1rem;
 	`}
 `

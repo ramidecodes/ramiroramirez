@@ -628,5 +628,35 @@ export const Global = createGlobalStyle`
         outline: none;
       }
     }
+
+    div.project-modal {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      bottom: 5%;
+      border: none;
+      background: #fff;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 6px;
+      outline: none;
+      padding: 1.5rem;
+      box-shadow:
+        0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+        0 3px 1px -2px rgba(0, 0, 0, 0.2), 
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+    }
+
+    .modal-overlay {
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.75);
+    }
   }
 `

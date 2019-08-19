@@ -55,22 +55,25 @@ export const Content = styled.div`
 export const Actions = styled.div`
 	margin-top:auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 1rem;
 	border-top: 1px solid #ddd;
-	div {
-		// display: flex;
-		&:first-child {
-			margin-right: 0.5rem;
-		}
-
-		img {
-			margin: 0;
-		}
-
-		span {
-			color: #000;
-			margin-left: 0.5rem;
+	.links {
+		display: flex;
+		align-items: center;
+		div {
+			&:first-child {
+				margin-right: 0.5rem;
+			}
+	
+			img {
+				margin: 0;
+			}
+	
+			span {
+				color: #000;
+				margin-left: 0.5rem;
+			}
 		}
 	}
 `
@@ -83,7 +86,7 @@ export const Meta = styled.div`
 `
 export const MetaCapsule = styled.div`
 	display: inline-block;
-	z-index: 2;
+	z-index: 1;
 	border-radius: 20px;
 	color: white;
 	// background-color: #794498;
@@ -117,4 +120,21 @@ export const TagCapsule = styled.div`
 		0 2px 2px 0 rgba(0,0,0,0.14),
 		0 1px 5px 0 rgba(0,0,0,0.12),
 		0 3px 1px -2px rgba(0,0,0,0.2);
+`
+export const ModalSection = styled.section`
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	header h2 {
+		font-size: 2rem;
+	}
+	main {
+		font-size: 12pt;
+	}
+	footer {
+		margin-top: auto;
+		align-self: end;
+	}
 `

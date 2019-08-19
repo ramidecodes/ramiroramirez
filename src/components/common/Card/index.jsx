@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardContainer, Header, Media, Content, Actions, TagCapsule, Meta, MetaCapsule, Tags } from './styles'
+import { CardContainer, Header, Media, Content, Actions, TagCapsule, Meta, MetaCapsule, Tags, ModalSection } from './styles'
 import ReactModal from 'react-modal'
 import { Button } from 'Common'
 // Icons
@@ -40,28 +40,30 @@ export class Card extends React.Component {
                 <Content>
                     <p>{this.props.project.shortDescription}</p>
                     <Tags>
-                        {this.props.project.madeWidth.map((typeTag) => (
-                            <TagCapsule>{typeTag}</TagCapsule>
+                        {this.props.project.madeWidth.map((typeTag, index) => (
+                            <TagCapsule key={index}>{typeTag}</TagCapsule>
                         ))}
                     </Tags>
                 </Content>
                 <Actions>
-                    {this.props.project.url &&
-                        <div>
-                            <a aria-label="Link" href={this.props.project.url} target="_blank">
-                                <img src={LinkIcon} width="24" alt="Project Website" />
-                            </a>
-                        </div>
-                    }
-                    {this.props.project.repoUrl &&
-                        <div>
-                            <a href={this.props.project.repoUrl} target="_blank">
-                                <img src={GithubIcon} width="24" alt="Github" />
-                            </a>
-                        </div>
-                    }
+                    <div className="links">
+                        {this.props.project.url &&
+                            <div>
+                                <a aria-label="Link" href={this.props.project.url} target="_blank">
+                                    <img src={LinkIcon} width="24" alt="Project Website" />
+                                </a>
+                            </div>
+                        }
+                        {this.props.project.repoUrl &&
+                            <div>
+                                <a href={this.props.project.repoUrl} target="_blank">
+                                    <img src={GithubIcon} width="24" alt="Github" />
+                                </a>
+                            </div>
+                        }
+                    </div>
                     <div>
-                        <Button onClick={this.handleModalOpen}>
+                        <Button secondary onClick={this.handleModalOpen}>
                             Read More
                         </Button>
                         {/* <button onClick={this.handleModalOpen}>
@@ -72,11 +74,21 @@ export class Card extends React.Component {
                 <ReactModal
                     isOpen={this.state.isModalOpen}
                     onRequestClose={this.handleModalClose}
-                    contentLabel="Tha Project"
+                    contentLabel={this.props.project.title}
+                    className="project-modal"
+                    overlayClassName="modal-overlay"
                 >
-                    <h2>{this.props.project.title}</h2>
-                    <div>{this.props.project.longDescription}</div>
-                    <button onClick={this.handleModalClose}>Close</button>
+                    <ModalSection>
+                        <header>
+                            <h2>{this.props.project.title}</h2>
+                        </header>
+                        <main>
+                            <div>{this.props.project.longDescription}</div>
+                        </main>
+                        <footer>
+                            <Button onClick={this.handleModalClose}>Close</Button>
+                        </footer>
+                    </ModalSection>
                 </ReactModal>
             </CardContainer >
         )
