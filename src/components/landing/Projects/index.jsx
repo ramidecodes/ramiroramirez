@@ -50,7 +50,7 @@ export const Projects = () => {
 			<h2>Previous Work</h2>
 			<Grid>
 				{ProjectList.map((project) => (
-					<Card project={project} />
+					<Card key={project.id.toString()} project={project} />
 				))}
 			</Grid>
 		</Wrapper>
