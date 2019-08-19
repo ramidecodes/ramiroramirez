@@ -112,8 +112,8 @@ export const Tags = styled.div`
 export const TagCapsule = styled.div`
 	display: inline-block;
 	border-radius: 6px;
-	color: #656565;
-	background-color: #efefef;
+	color: white;
+	background-color: #5b5b5b;
 	padding: .4rem;
 	font-size: 10pt;
 	font-weight: 400;
