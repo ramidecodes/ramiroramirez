@@ -50,13 +50,7 @@ export const Projects = () => {
 			<h2>Previous Work</h2>
 			<Grid>
 				{ProjectList.map((project) => (
-					<Card
-						// as="a"
-						// href={node.url}
-						// target="_blank"
-						// rel="noopener noreferrer"
-						project={project}
-					/>
+					<Card project={project} />
 				))}
 			</Grid>
 		</Wrapper>
