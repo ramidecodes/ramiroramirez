@@ -18,7 +18,11 @@ export const About = () => (
 					The invaluable experience of founding studios in Spain, Mexico, Argentina and The Netherlands has taught me that there is no magic recipe or silver bullet to solve a problem.
 				</p>
 				<p>
-					Each project has a life of its own, it's composed of unique human dynamics and embedded in a particular cultural context. Once we acknowledge that software is a very human endeavor we can start providing real value to an ever-changing ecosystem.				</p>
+					Each project has a life of its own, it's composed of unique human dynamics and embedded in a particular cultural context.
+				</p>
+				<p>
+					Once we acknowledge that software is a very human endeavor we can start providing real value to an ever-changing ecosystem.
+				</p>
 			</Details>
 		</SkillsWrapper>
 	</Wrapper>
