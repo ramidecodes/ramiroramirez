@@ -631,10 +631,10 @@ export const Global = createGlobalStyle`
 
     div.project-modal {
       position: absolute;
-      top: 5%;
-      left: 5%;
-      right: 5%;
-      bottom: 5%;
+      top: 10%;
+      left: 10%;
+      right: 10%;
+      bottom: 10%;
       border: none;
       background: #fff;
       overflow: auto;

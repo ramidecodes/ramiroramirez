@@ -42,6 +42,6 @@ export const Button = styled.button`
 		`
 		// background: white;
 		// color: #8f14b;
-		padding: .6rem 1rem;
+		padding: .5rem .8rem;
 	`}
 `

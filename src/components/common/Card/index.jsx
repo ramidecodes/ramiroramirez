@@ -64,7 +64,7 @@ export class Card extends React.Component {
                     </div>
                     <div>
                         <Button secondary onClick={this.handleModalOpen}>
-                            Read More
+                            Read more
                         </Button>
                         {/* <button onClick={this.handleModalOpen}>
                             Read More

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.section`
 	height: 585px;
 	width: 100%;
 	display: flex;
@@ -35,7 +35,7 @@ export const Media = styled.div`
 		filter: grayscale(100%);
 	}
 `
-export const Header = styled.div`
+export const Header = styled.header`
 	padding: 1rem;
 	h4 {
 		font-size: 16pt;
@@ -47,12 +47,12 @@ export const Header = styled.div`
 		color: #808080;
 	}
 `
-export const Content = styled.div`
+export const Content = styled.main`
 	padding: 2rem 1rem 1rem;
 	// color: #606060;
 	font-size: 11pt;
 `
-export const Actions = styled.div`
+export const Actions = styled.footer`
 	margin-top:auto;
 	display: flex;
 	justify-content: space-between;
@@ -88,11 +88,13 @@ export const MetaCapsule = styled.div`
 	display: inline-block;
 	z-index: 1;
 	border-radius: 20px;
-	color: white;
-	// background-color: #794498;
-	background-color: #3f3d56;
+	// color: white;
+	background-color: white;
+	// background-color: #3f3d56;
 	margin: 0 0.2rem .5rem;
-		margin-right: 0.2rem;
+	&:last-child {
+		margin-right: 0;
+	}
 	padding: 0.4rem .7rem;
 	font-size: 10pt;
 	font-weight: 400;
@@ -104,7 +106,7 @@ export const MetaCapsule = styled.div`
 export const Tags = styled.div`
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: start;
 `
 
 export const TagCapsule = styled.div`
@@ -116,6 +118,12 @@ export const TagCapsule = styled.div`
 	font-size: 10pt;
 	font-weight: 400;
 	margin: 0 5px .5rem;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
 	box-shadow: 
 		0 2px 2px 0 rgba(0,0,0,0.14),
 		0 1px 5px 0 rgba(0,0,0,0.12),
