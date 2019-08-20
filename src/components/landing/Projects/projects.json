@@ -3,13 +3,19 @@
         "id": 0,
         "title": "Conscious Geek Stuff",
         "shortDescription": "T-shirts and apparel for the contemporary geek.",
-        "longDescription": "Conscious Geek Stuff is the crossing point of computer science, digital art (specialty pixel art), old and new science, the ways of Earth and Consciousness.",
+        "longDescription": [
+            "The goal was to have a place to showcase original designs and be able to sell a wide variety of product with minimal effort at the time of adding new designs and generating new products.",
+            "This eStore leverages drop shipping services provided by Printful. A big plus is the ability offer the products on demand, without the need to deal with storage, and distribution."
+        ],
         "url": "https://consciousgeekstuff.com",
+        "relevantLinks": [],
         "repoUrl": "",
         "image": "projects/consciousgeekstuff.jpg",
         "madeWidth": [
             "Wordpress",
-            "Woocommerce"
+            "Woocommerce",
+            "Printful API",
+            "PayPal API"
         ],
         "type": "eCommerce",
         "year": 2019
@@ -18,8 +24,12 @@
         "id": 1,
         "title": "Human Beyond Labs",
         "shortDescription": "Creative studio that focuses on interactive storytelling through immersive installations using AI.",
-        "longDescription": "We explore the intersection of cutting edge technology and human expression; combining web technologies, artificial intelligence, and digital art.",
+        "longDescription": [
+            "The website was developed as a Progressive Web App with the goal of acting as an online portfolio and a portal for users to book workshops and events organized by the studio.",
+            "Firebase was used as a host due to the ease of implementation and low costs for small userbase apps."
+        ],
         "url": "https://humanbeyondlabs.com",
+        "relevantLinks": [],
         "repoUrl": "https://gitlab.com/human-beyond-labs/hbl-website",
         "image": "projects/humanbeyondlabs.jpg",
         "madeWidth": [
@@ -34,16 +44,22 @@
     {
         "id": 2,
         "title": "Tamagotchi Instagram",
-        "shortDescription": "An Instagram scraper to collect publicly available data.",
-        "longDescription": "Tamagotchi is based on Puppeteer, a library that leverage Chrome Dev Tools. By interacting with Instagram as a human user it can navigate content without limitations and extract the publicly available data in a structured way, ready to be analyzed.",
+        "shortDescription": "An Instagram scraper that collects publicly available data.",
+        "longDescription": [
+            "The original goal was to have access to all the publicly available data in Instagram and store it in a structured way to perform NLP analysis on a later stage.",
+            "Modern platforms incorporate all sorts of security check to ensure the quality of the experience for the human users. A basic HTML scraper would get blocked immediately and have no way to interact with the platform in order to access the content hidden behind buttons and interactions.",
+            "Our approach was to use Puppeteer, a library that leverages Chrome Dev Tools in order to impersonate a human user and interact with the graphic interface to browse over the content and store it in a database.",
+            "PostgreSQL was the database of choice based on the possibility to work with traditional relational structure as well with non relational data. The program also synchronize a local database with an Elasticsearch cluster."
+        ],
         "url": "",
+        "relevantLinks": [],
         "repoUrl": "",
         "image": "projects/tamagotchi_instagram.jpg",
         "madeWidth": [
-            "JavaScript",
-            "NodeJS",
             "Express",
-            "PostgreSQL"
+            "NodeJS",
+            "PostgreSQL",
+            "Elasticsearch"
         ],
         "type": "Data Scraper",
         "year": 2019
@@ -52,8 +68,13 @@
         "id": 3,
         "title": "Adventures of the Valparaiso",
         "shortDescription": "Art studio above the hull of a hundre-years-old barge.",
-        "longDescription": "Adventures of the Valparaiso is a journey along the road to paradise. The fuel that keeps this ship and its projects going is the inspiration of the old port city it is named after and the sign you see in the window when you first step on board that reads. Happiness is the journey not the destination",
+        "longDescription": [
+            "The organization needed a flexible and lightweight platform to explain who they are and what they do.",
+            "The website was developed as a Progressive Web App in order to accommodate for future features like a blog, social media feed, and interactive storytelling.",
+            "Frebase was used as a host due to the easy of implementation and low costs for small userbase apps."
+        ],
         "url": "https://adventuresofthevalparaiso.com",
+        "relevantLinks": [],
         "repoUrl": "https://github.com/ecovirtual/valparaiso",
         "image": "projects/valparaiso.jpg",
         "madeWidth": [
@@ -68,15 +89,22 @@
     {
         "id": 4,
         "title": "Tamagotchi Facebook",
-        "shortDescription": "A Facebook scraper to collect publicly available data.",
-        "longDescription": "Tamagotchi is based on Puppeteer, a library that leverage Chrome Dev Tools. By interacting with Facebook UI as a human user it can navigate content without limitations and extract the publicly available data in a structured way, ready to be analyzed.",
+        "shortDescription": "A Facebook scraper that collects publicly available data.",
+        "longDescription": [
+            "The goal was to have access to all the publicly available data for Pages and Profiles in Facebook and store it in a structured way to perform NLP analysis on a later stage.",
+            "A basic HTML scraper would get blocked immediately and have no way to interact with the platform in order to access the content hidden behind specific user interactions.",
+            "Our approach was to use Puppeteer, a library that leverages Chrome Dev Tools in order to impersonate a human user and interact with the graphic interface to browse over the content and store it in a database.",
+            "PostgreSQL was the database of choice based on the possibility to work with traditional relational structure as well with non relational data. The program also synchronize a local database with an Elasticsearch cluster."
+        ],
         "url": "",
+        "relevantLinks": [],
         "repoUrl": "",
         "image": "projects/tamagotchi_facebook.jpg",
         "madeWidth": [
-            "JavaScript",
+            "Express",
             "NodeJS",
-            "PostgreSQL"
+            "PostgreSQL",
+            "Elasticsearch"
         ],
         "type": "Data Scraper",
         "year": 2018
@@ -85,15 +113,21 @@
         "id": 5,
         "title": "Tamagotchi Dashboard",
         "shortDescription": "Intuitive administration dashboard to manage & monitor microservice-based applications using REST APIs.",
-        "longDescription": "The dashboard is built as a progressive web app. It implements JWT for authentication. The UI components are based on Google Material Design to ensure good practices on usability and UX.",
+        "longDescription": [
+            "The main goal for the dashboard was to display the state of multiple instances of social media scrapers, and for a user to be able to manage them with ease from a graphic interface.",
+            "Since all the processes were executed in distributed servers a custom API was design for the individual instances to report their status to the main monitor. The API was implemented following the REST patter, and secured using JSON Web Tokens (JWT)",
+            "The dashboard was developed as a Progressive Web App in order to have enough freedom in the future to add new functionality.",
+            "The user interface was design based on Google Material design principles to ensure a great user experience."
+        ],
         "url": "",
+        "relevantLinks": [],
         "repoUrl": "",
         "image": "projects/tamagotchi_dashboard.jpg",
         "madeWidth": [
-            "NodeJS",
             "VueJS",
             "Express",
             "REST",
+            "NodeJS",
             "PostgreSQL"
         ],
         "type": "Web App",
@@ -103,14 +137,23 @@
         "id": 6,
         "title": "Singularity Instant",
         "shortDescription": "A short piece of interactive contemporary art.",
-        "longDescription": "Presented as an immersive scene that includes interactive components of dance, music, olfactory art and reactive image design.",
+        "longDescription": [
+            "This interactive performance took place in Argentina during 'Consumo Visuales' 4th edition, a festival oriented to visual art in all it's forms.",
+            "The piece was produced by a multidisciplinary team of creatives. The narrative and aesthetic decisions were made in full collaboration using a consensus based horizontal structure.",
+            "My roles beyond the collaborative decision-making was producer, project manager and designer/developer of the interactive background.",
+            "We used a mix of techniques and platforms: Resolume to run the visuals and synchronize the mapping on location; Unity3D and Processing to design the individual interactive graphic pieces."
+        ],
         "url": "https://www.instagram.com/opentodo/",
+        "relevantLinks": [
+            "https://www.facebook.com/opentodo/videos/176732546233158/"
+        ],
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
         "image": "projects/singularity_instant.jpg",
         "madeWidth": [
             "Processing",
             "Unity3d",
-            "Resolume"
+            "Resolume",
+            "Kinect v2"
         ],
         "type": "Interactive Installation",
         "year": 2017
@@ -119,14 +162,24 @@
         "id": 7,
         "title": "Singularity Horizon",
         "shortDescription": "An interactive contemporary dance piece in seven acts.",
-        "longDescription": "Set in a multisensory landscape where music, dance, fragrances and interactive projections stimulate the imagination.",
+        "longDescription": [
+            "This was the first full piece produce by OpenLab a collective of multimedia artists and dancers based in Córdoba, Argentina.",
+            "As a teem we had the goal to produce a collaborative immersive experience using a consensus based decision-making approach. Each member had it's own role based on their own domain of expertise, and also doubled as director for the key aspects of the play.",
+            "My role beyond the collaborative decision-making was as general producer, and developer of the interactive landscape.",
+            "We used a mix of techniques and platforms: Resolume Arena to run the visuals live and synchronize the mapping on location; Unity3D, Processing and Adobe After Effects to design the individual interactive graphic pieces.",
+            "The result was a 40 minutes long interactive dance play with live orchestral music and olfactory interventions (smells accompanying the development of the narrative)."
+        ],
         "url": "https://www.instagram.com/opentodo/",
+        "relevantLinks": [
+            "https://www.facebook.com/opentodo/videos/193581361214943/"
+        ],
         "repoUrl": "https://github.com/ecovirtual/kinectvision",
         "image": "projects/singularity_horizon.jpg",
         "madeWidth": [
             "Processing",
             "Unity3d",
-            "Resolume"
+            "Resolume",
+            "Kinect v2"
         ],
         "type": "Interactive Installation",
         "year": 2017

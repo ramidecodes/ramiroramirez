@@ -135,14 +135,21 @@ export const ModalSection = styled.section`
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
-	header h2 {
-		font-size: 2rem;
+	header {
+		// border-bottom: 1px solid #ddd;
+		h2 {
+			font-size: 28pt;
+			text-align: center;
+		}
 	}
 	main {
+		h3 {
+			font-size: 20pt; 
+		}
 		font-size: 12pt;
 	}
 	footer {
-		margin-top: auto;
+		margin-top: 1rem;
 		align-self: end;
 	}
 `

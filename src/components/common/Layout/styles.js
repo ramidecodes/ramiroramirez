@@ -618,7 +618,6 @@ export const Global = createGlobalStyle`
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     }
-
     a {
       text-decoration: none;
     }
@@ -628,13 +627,22 @@ export const Global = createGlobalStyle`
         outline: none;
       }
     }
-
+    .no-scroll {
+    }
+    body.ReactModal__Body--open {
+      overflow: hidden;
+    }
     div.project-modal {
-      position: absolute;
-      top: 10%;
-      left: 10%;
-      right: 10%;
-      bottom: 10%;
+      // position: absolute;
+      // top: 10%;
+      // left: 10%;
+      // right: 10%;
+      // bottom: 10%;
+      // height: auto;
+      max-width: 76%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
       border: none;
       background: #fff;
       overflow: auto;
@@ -656,7 +664,11 @@ export const Global = createGlobalStyle`
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(255, 255, 255, 0.75);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(23, 23, 23, 0.77);
     }
   }
 `

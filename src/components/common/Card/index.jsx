@@ -18,6 +18,7 @@ export class Card extends React.Component {
     handleModalOpen = event => {
         // console.log('handleModalOpen: ', event);
         this.setState({ isModalOpen: true })
+
     }
 
     handleModalClose = event => {
@@ -83,7 +84,19 @@ export class Card extends React.Component {
                             <h2>{this.props.project.title}</h2>
                         </header>
                         <main>
-                            <div>{this.props.project.longDescription}</div>
+                            <div>
+                                <h3>Goals & Challenges</h3>
+                                {this.props.project.longDescription.map((paragraph, index) => (
+                                    <p key={index}>{paragraph}</p>
+                                ))}</div>
+                            <div>
+                                <h3>Technology Stack</h3>
+                                <Tags>
+                                    {this.props.project.madeWidth.map((typeTag, index) => (
+                                        <TagCapsule key={index}>{typeTag}</TagCapsule>
+                                    ))}
+                                </Tags>
+                            </div>
                         </main>
                         <footer>
                             <Button onClick={this.handleModalClose}>Close</Button>
