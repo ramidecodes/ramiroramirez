@@ -75,6 +75,7 @@ export class Card extends React.Component {
                 <ReactModal
                     isOpen={this.state.isModalOpen}
                     onRequestClose={this.handleModalClose}
+                    closeTimeoutMS={800}
                     contentLabel={this.props.project.title}
                     className="project-modal"
                     overlayClassName="modal-overlay"

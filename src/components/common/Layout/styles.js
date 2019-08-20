@@ -670,5 +670,17 @@ export const Global = createGlobalStyle`
       align-items: center;
       background-color: rgba(23, 23, 23, 0.77);
     }
+    .ReactModal__Overlay {
+      opacity: 0;
+      transition: opacity 800ms ease-in-out;
+    }
+  
+    .ReactModal__Overlay--after-open{
+        opacity: 1;
+    }
+    
+    .ReactModal__Overlay--before-close{
+        opacity: 0;
+    }
   }
 `
