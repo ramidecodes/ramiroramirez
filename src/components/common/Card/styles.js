@@ -150,6 +150,7 @@ export const ModalSection = styled.section`
 	}
 	footer {
 		margin-top: 1rem;
+		padding-bottom: 1rem;
 		align-self: end;
 	}
 `
