@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: config.defaultTitle,
     description: config.defaultDescription,
-    author: config.author,
+    author: config.author, // 42
   },
   plugins: [
     'gatsby-plugin-react-helmet',
